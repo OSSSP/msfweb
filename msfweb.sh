@@ -1,4 +1,4 @@
-useradd -m msfweb -s /bin/bash
+sudo useradd -m msfweb -s /bin/bash
 sudo apt-get --allow-unauthenticated --yes install software-properties-common
 sudo -H add-apt-repository ppa:gophers/archive
 sudo add-apt-repository ppa:jonathonf/golang-libs-1.8
